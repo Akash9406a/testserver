@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 CORS_ORIGIN_ALLOW_ALL = True 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["*","testserver-20y3.onrender.com"]
 CORS_ALLOWED_ORIGINS = ["http://frontend:3000"]
 CORS_ALLOW_CREDENTIALS = True
 
